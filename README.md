@@ -2,39 +2,6 @@
 
 Welcome to the **E-Learning Management System (LMS)**! This project consists of two main components: the **Frontend** (built with **Angular**) and the **Backend** (developed using **Django and Django REST Framework**), combined with CI/CD technologies such as **Docker** and **Jenkins**. The LMS is a full-featured web application designed to manage users, courses, lessons, quizzes, and much more. This README provides a complete guide on how to set up, run, and contribute to both parts of the system.
 
-## Table of Contents
-
-- [Project Overview](#project-overview)
-  - [The MAD-Stack](#the-mad-stack)
-- [Features](#features)
-- [Live Deployment](#live-deployment)
-- [Detailed Project Information](#detailed-project-information)
-  - [Frontend User Interfaces](#frontend-user-interfaces)
-  - [Available API Endpoints](#available-api-endpoints)
-  - [Unit Tests for APIs](#unit-tests-for-apis)
-- [File Structure](#file-structure)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Backend Setup (Django)](#backend-setup)
-  - [Frontend Setup (Angular)](#frontend-setup)
-- [API Documentation](#api-documentation)
-  - [Authentication](#authentication)
-  - [Testing the APIs](#testing-the-apis)
-  - [Seeding Sample Data](#seeding-sample-data)
-  - [Recommended GUI Tools](#recommended-gui-tools)
-  - [MongoDB Atlas](#mongodb-atlas)
-- [Containerization](#containerization)
-- [Kubernetes](#kubernetes)
-- [OpenAPI Specification](#openapi-specification)
-- [Jenkins CI/CD](#jenkins-cicd)
-- [Troubleshooting](#troubleshooting)
-  - [Common Issues](#common-issues)
-  - [Debugging Tips](#debugging-tips)
-- [Additional Information](#additional-information)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
 ## Project Overview
 
 The **E-Learning Management System** is a web-based platform designed to facilitate online education and training. It provides a comprehensive set of features for managing courses, lessons, users, quizzes, and more. The system is composed of:
@@ -71,17 +38,7 @@ The **MAD-Stack** is a powerful combination that allows developers to build scal
 - **Data Visualization**: Dynamic charts using Chart.js.
 - **Comprehensive APIs**: Powerful RESTful APIs for all operations.
 - **API Documentation**: Comprehensive REST API documentation with Swagger and Redoc.
-
-## Live Deployment
-
-The project is currently deployed live on Vercel and Render. You can access the live deployment using the following link: [E-Learning Management System](https://learning-manangement-system.vercel.app).
-
-The backend is deployed on Render: [Backend API](https://learning-management-system-fullstack.onrender.com/).
-
-Feel free to explore the platform, create an account, and test out the features.
-
-> **Note:** Our backend server may spin down due to inactivity, so you may experience delays in loading data initially as the backend is hosted on the free tier of Render. If you encounter any issues, please let me know.
-
+- 
 ## Detailed Project Information:
 
 ### Frontend User Interfaces
@@ -386,7 +343,7 @@ Ensure the following prerequisites are installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/hoangsonww/Learning-Management-System-Fullstack.git
+   git clone https://github.com/MeAkash77/Learning-Management-System.git
    cd Fullstack-Learning-Management-System/LMS-Backend
    ```
 
@@ -872,17 +829,3 @@ We welcome contributions! Feel free to submit issues and create pull requests.
 4. **Commit** your changes and **push** them to your fork.
 5. **Create a pull request** to the main repository.
 6. I will **review your changes** and **merge them if they are accepted**.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-If you have any questions or need further assistance, contact us at [hoangson091104@gmail.com](mailto:hoangson091104@gmail.com).
-
-Alternatively, you can also open an issue in the repository [here](https://github.com/hoangsonww/Learning-Management-System-Fullstack/issues).
-
----
-
-**[⬆ Back to Top](#e-learning-management-fullstack-system)**
